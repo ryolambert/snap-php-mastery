@@ -58,7 +58,7 @@ class Person {
 	/* all the rest of the class goes here */
 }
 function listNewPersonInfo (Person $newPerson) : string {
-	return "This is " .$newPerson->getPersonName() ."./n".$newPerson->getPersonGender()." is ".$newPerson->getPersonAge()." years old.".;
+	return "This is " .$newPerson->getPersonName() ."./n".$newPerson->getPersonGender()." is ".$newPerson->getPersonAge()." years old.";
 }
 // test a function
 $newPerson = new Person("George", 28, true);
